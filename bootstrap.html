@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bootstrap</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+	<style>
+    .navbar ul li a
+    {
+    	padding:15px;
+    	padding-bottom: 35px;
+    	color: white;
+    	font-size: 20px;
+    	text-decoration: none;
+
+    }
+    .navbar ul li a:hover
+    {
+    	color:#dc3545;
+    }
+
+    .navbar-brand img
+    {
+    	border-radius:25px;
+
+    }
+    .content
+{
+	min-height: 800px;
+	
+}
+.inner-image
+{
+
+	
+    text-align: center;
+    background-image: url("images/content.jpg");
+	width: 100%;
+	/*background-color: red;*/
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+
+
+}
+.inner-content
+{
+	position: relative;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	overflow: hidden;
+	margin-bottom: 12%;
+	background-color: rgba(0,1,5,0.7);
+	max-width: 670px;
+	margin-top: 250px;
+	margin-left: 450px;
+	color: #C84B31;
+	border-top-right-radius: 60px; 
+	border-bottom-left-radius: 60px;
+}
+.title
+{
+	background-color: #66806A;
+
+
+}
+.btn
+{
+	background-color: #66806A;
+    
+}
+.btn a
+{
+	text-decoration: none;
+	color: white;
+}
+
+  h1
+  {
+  	font-family: 'Montserrat', sans-serif;
+  	font-size: 40px;
+  	line-height: 1.5;
+  	color:white;
+  }
+  .dog2 img
+  {
+  	transform: rotate(20deg);
+  	border-top-right-radius:40px;
+  	border-bottom-left-radius:40px;
+  	
+  	position: absolute;
+  	margin-left:150px;
+  }
+  .container-fluid
+  {
+  	padding:3% 15% 6%;
+  	padding-right: 20%
+  }
+ .navbar
+ {
+ 	padding-bottom: 40px;
+ 	background-color: #66806A;
+ }
+  .box
+  {
+  	text-align: center;
+  	font-family: 'Montserrat', sans-serif;
+  	padding:0px 5%;
+  }
+ .row
+ {
+ 	padding:10% 3%;
+ }
+.box i
+{
+	color:#dc3545;
+	cursor: pointer;
+}
+.box i:hover
+{
+	color:#66806A;
+}
+.bg
+{
+	background-color:#B85252;
+	padding-top:25px;
+	color:white;
+	padding:3% 5%;
+	text-align: center;
+	
+	 	font-family: 'Montserrat', sans-serif;
+}
+.bg img
+{
+	border-radius:100%;
+	width:200px;
+	height:200px;
+	padding:6px ;
+
+}
+.testimonial #box
+{
+background-color: red;
+}
+.sec
+{
+
+	text-align: center;
+  	font-family: 'Montserrat', sans-serif;
+  	padding:3% 5%;
+  	background-color:#B85252;
+	
+	color:white;
+	
+
+
+}
+.sec a
+{
+	text-decoration: none;
+	color:black;
+}
+.j a
+{
+    text-decoration: none;
+	color:black;
+}
+.third a
+{
+	text-decoration: none;
+	color:black;
+}
+.sec img
+{
+	border-radius:100%;
+	width:200px;
+	height:200px;
+	padding:6px ;
+}
+.third
+{
+background-color:#dc3545;
+	text-align: center;
+  	font-family: 'Montserrat', sans-serif;
+  	padding:3% 5%;
+  	background-color:#B85252;
+	
+	color:white;
+
+
+}
+.third img
+{
+
+	border-radius:100%;
+	width:200px;
+	height:200px;
+	padding:6px ;
+}
+.card
+{
+	text-align: center;
+	padding:0px 0px;
+}
+h2
+{
+	text-align: center;
+	padding-top:100px;
+}
+.card-header h3
+{
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+}
+.card-header
+{
+	background-color: #dc3545;
+
+}
+.table
+{
+	padding-top:70px;
+}
+.card-body
+{
+	background-color: grey;
+    padding-bottom: 60px;
+   font-family:'Montserrat', sans-serif;
+}
+.card-body h2
+{
+	margin-bottom: 30px
+
+}
+.card-body .btn
+{
+	margin-top: 30px
+}
+.card-body .btn:hover
+{
+	background-color: #ffc107;
+}
+.z-index
+{
+	background-color: white;
+	position: relative;
+	
+}
+.footer
+{
+	background-color:  #dc3545;
+	padding:7% 15%;
+	color:white;
+	text-align: center;
+}
+.head
+{
+	font-family:'Montserrat';
+	font-size: 3.5rem;
+	
+} 
+#la
+{
+	text-align: center;
+	padding: 7% 15%;
+}
+.a
+{
+
+margin:15px 10px;
+}
+.download
+{
+	padding-right: 6px;
+}
+
+.offer
+{
+	
+	margin-top: 20px;
+	padding: 20px 0;
+}
+.offer-image
+{
+	width: 400px
+}
+.col-2
+{
+	margin-left: 400px;
+}
+.band
+{
+	margin-left: 100px
+}
+a
+{
+	text-decoration: none;
+	color:black;
+}
+footer
+{
+	background-color: #3C415C;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 8px;
+}
+
+@media (max-width: 1028px)
+{
+	.dog2 img{
+		position: static;
+		transform: rotate(0);
+		margin-top:80px;
+		margin-left: 1px;
+		width: 250px
+       
+	}
+}
+@media (max-width: 1028px)
+{
+	.title{
+		text-align: center;
+	}
+}
+@media (min-width:(1028px) 
+{
+	.carousel-item{
+		text-align: center;
+	}
+}
+@media (max-width: 1028px)
+{
+       .table{
+		text-align: center;
+		
+	}
+}
+</style>
+
+</head>
+
+<body>
+<section class="title">
+	<div class="container-fluid">
+<nav class="navbar navbar-dark navbar-expand-lg  ">
+	<a class=" logo navbar-brand" href="#">
+    
+		<img src="images/logo.jpg" width="40" height="40" class=" logo d-inline-block align-top" alt="" loading="lazy">
+   <b>lifestyle</b>
+  </a>
+	
+
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class=" nav collapse navbar-collapse" id="navbarTogglerDemo01">
+	<ul class="navbar-nav ml-auto ">
+		
+		<li><a href="signup1.html"> sign up</a></li>
+		<li><a href="login1.html"> log in</a></li>
+		<li><a href="#la"> contact</a></li>
+	</ul>
+</div>
+</nav>
+	<div class="row">
+
+	<div class="col-lg-6 col-sml ">
+	<h1> Top offers on products</h1>
+	<p>Get Upto 50% Off </p>
+
+     <button class="btn btn-outline-danger btn-lg" ><i class="fab fa-google-play fa-size-2x"></i>click here</button>
+ </div>
+<div class=" dog2 col-lg-6 col-sml ">
+     <img src="images/e2.png" width=350 height=450 >
+ </div>
+    
+</div>
+</section>
+<div class=" z-index row">
+	<div class=" box col-lg-4">
+		<i class="fas fa-check-circle fa-4x"></i>
+		<h3>Easy to use</h3>
+		
+		<p>so easy to use, even a small baby could do it</p>
+	</div>
+	<div class="  box col-lg-4">
+		<i class="fas fa-heart fa-4x"></i>
+		<h3>Guaranteed to work</h3>
+		<p>find a product you want or your money back</p>
+	</div>
+	<div class=" box col-lg-4">
+		<i class="fas fa-shopping-cart fa-4x"></i>
+		<h3>products</h3>
+		<p> we have many kinds of product</p>
+	</div>
+</div>
+<section class="testimonial">
+	
+	<div id="carouselExampleControls" class="  carousel slide" data-ride="carousel">
+  <div class=" center carousel-inner">
+    <div class="j carousel-item active bg box">
+      
+      <img src="images/jeans.jpg">
+      <h3><a href="jean.html">Jeans</a></h3>
+      <p>Flat 25-35% off on Jeans</p>
+    </div>
+    <div class=" sec carousel-item">
+      <img src="images/shirt.jpg">
+  			<h3><a href="box4.html">  Shirts</a></h3>
+  			<p>Under Rs-999</p>
+    </div>
+     <div class=" third carousel-item">
+     	<img src="images/headphone.jpg">
+     		<h3><a href="box2.html"> Headphones</a></h3>
+  			<p>Great Deals on Headphones</p>
+     </div>
+   
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</section>
+<br><br><br>
+
+<section >
+<div class="content">
+<div class="inner-image">
+	<div class="inner-content">
+	      <h3>Fashion</h3>
+	      <h1>MEGA SALE</h1>
+	      <p>60% Off </p>
+	      <button type="button" class="btn btn-danger">Shop</button>
+	</div>
+</div>
+</div>
+	<br>
+	</section>
+
+<div class="offer">
+	<div class="small-container">
+		<div class="row">
+			<div class="col-2">
+				<img src="images/watch.jpg" class="offer-image">
+				
+			</div>
+			<div class="col-2 band">
+				<p>Exclusively Available on Happy Shop</p>
+				<h1 style="color: black">Smart Band 4</h1>
+				<small>
+					It's compatible with Android phones and iPhones, bringing you features like the ability to view phone notifications, view weather forecasts, control music playback on your phone and taking smartphone photos remotely.
+				</small>
+				<br><br><button type="button" class="btn btn-danger"><a href="watch.html">  Shop</a></button>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<footer id="la">
+	<i class=" a fab fa-facebook-f"></i>
+	<i class=" a fab fa-twitter"></i>
+	<i class=" a fas fa-envelope"></i>
+	<p>@copyright 2021 Happy Shop</p>
+ 
+ </footer>
+</body>
+</html>
